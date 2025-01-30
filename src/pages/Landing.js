@@ -1,7 +1,14 @@
 import React from 'react'
+import FAQ from '../components/FAQ'
 
-export default function Landing() {
+function App() {
   return (
-    <div>Landing</div>
-  )
+    <div className="App">
+      <FAQ />
+      
+    </div>
+  );
 }
+
+export default App;
+
