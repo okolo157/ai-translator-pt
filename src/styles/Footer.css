@@ -13,6 +13,5 @@
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: yellowgreen;
   padding: 10px;
 }

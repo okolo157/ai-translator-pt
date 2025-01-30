@@ -3,12 +3,11 @@ import "../styles/Header.css";
 function Header() {
   return (
     <div className="body">
-      <div class="translator">
+      <div className="translator">
         <h1>Free AI Translator Powered by ChatGPT 3.5/4</h1>
       </div>
       <div className="description">
         <h2>Description</h2>
-        <br></br>
         <p>
           image.ai translator help to converts written or spoken content from
           one language to another while preserving its original meaning, tone
@@ -25,7 +24,7 @@ function Header() {
         </p>
       </div>
       <div>
-        <button class="text">Get Started</button>
+        <button className="text">Get Started</button>
       </div>
     </div>
   );
