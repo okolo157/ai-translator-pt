@@ -1,5 +1,5 @@
 import React from "react";
-import "../FAQ.css";
+import "../styles/FAQ.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
