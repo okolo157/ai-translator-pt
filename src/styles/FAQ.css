@@ -1,0 +1,17 @@
+.light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 70px;
+}
+ul li {
+  list-style: none;
+  height: 70px;
+  font-size: 20px;
+  text-align: left;
+}
+
+p {
+  margin-right: 40px;
+}
