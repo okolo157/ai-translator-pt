@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/Footer.js";
 
-export default function Landing() {
+function App() {
   return (
-    <div>Landing</div>
-  )
+    <div className="App">
+      <Footer />
+    </div>
+  );
 }
+
+export default App;

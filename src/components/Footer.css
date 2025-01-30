@@ -1,0 +1,18 @@
+.icon-container {
+  /* background-color: red; */
+  display: flex;
+  padding-right: 50px;
+  gap: 60px;
+}
+.cookies {
+  display: flex;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellowgreen;
+  padding: 10px;
+}
