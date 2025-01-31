@@ -21,7 +21,7 @@ function Footer() {
           style={{ display: "flex", alignItems: "center" }}
           target="_blank"
           rel="noreferrer"
-          herf="https://macos-web.app/"
+          href="https://macos-web.app/"
         >
           <FontAwesomeIcon icon={faAppStoreIos} size="2x" className="itemx" />
           macOS
@@ -30,7 +30,7 @@ function Footer() {
           style={{ display: "flex", alignItems: "center" }}
           target="_blank"
           rel="noreferrer"
-          herf="https://windows.com/stopcode"
+          href="https://windows.com/stopcode"
         >
           <FontAwesomeIcon icon={faWindows} size="2x" className="itemx" />
           windows
@@ -39,7 +39,7 @@ function Footer() {
           style={{ display: "flex", alignItems: "center" }}
           target="_blank"
           rel="noreferrer"
-          herf="https://www.apple.com/ios/ios-18/"
+          href="https://www.apple.com/ios/ios-18/"
         >
           <FontAwesomeIcon icon={faApple} size="2x" className="itemx" />
           ios
@@ -48,7 +48,7 @@ function Footer() {
           style={{ display: "flex", alignItems: "center" }}
           target="_blank"
           rel="noreferrer"
-          herf="https://www.android.com/"
+          href="https://www.android.com/"
         >
           <FontAwesomeIcon icon={faAndroid} size="2x" className="itemx" />
           Android

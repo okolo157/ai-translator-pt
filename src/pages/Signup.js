@@ -24,9 +24,9 @@ function Signup() {
               justifyContent: "center",
             }}
           >
-            <hr style={{ width: "200px" }} />
+            <hr style={{ width: "180px" }} />
             <p> or </p>
-            <hr style={{ width: "200px" }} />
+            <hr style={{ width: "180px" }} />
           </div>
         </div>
 

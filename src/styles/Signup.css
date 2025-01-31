@@ -14,10 +14,10 @@
   align-items: center;
   gap: 20px;
   justify-content: center;
-  background-color:yellow;
+  background-color: yellow;
 }
 .parfait {
-  padding: 60px;
+  padding: 40px;
   background-color: pink;
   border-radius: 50px;
   box-shadow: 4px 4px 4px 2px rgb(190, 145, 145);
@@ -26,11 +26,9 @@
 .btn {
   padding: 10px;
   display: flex;
-  justify-self: center;
   align-items: center;
   gap: 5px;
   background-color: blueviolet;
-
 }
 
 button {
@@ -42,4 +40,11 @@ button {
   width: 400px;
   border-radius: 20px;
   border: none;
+}
+
+.cookies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
