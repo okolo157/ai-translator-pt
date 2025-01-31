@@ -1,0 +1,51 @@
+input {
+  border: none;
+}
+
+.other {
+  border: 2px solid rgb(196, 63, 196);
+  padding: 20px;
+  border-radius: 10px;
+  flex: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.other2 {
+  background-color: rgb(247, 144, 144);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+::placeholder {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+
+.apart {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  border: 5px;
+  border-radius: 3px;
+  gap: 10px;
+  margin-left: 200px;
+}
+
+.insider {
+  display: flex;
+  gap: 10px;
+}
+
+.son {
+  background-color: rgb(245, 143, 245);
+}

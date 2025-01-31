@@ -22,12 +22,13 @@ function TranslateComponent() {
           height: "500px",
           backgroundColor: "red",
           boxShadow: "'4px', '4px', '4px', '4px', 'rgba(0, 0, 0, 0.2)'",
+          padding: "20px",
         }}
       >
         <LanguageSelect />
-        {/* <VoiceTone />
+        <VoiceTone />
         <TranslateBox />
-        <Rating /> */}
+        {/* <Rating /> */}
       </div>
     </div>
   );
