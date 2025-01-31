@@ -1,0 +1,45 @@
+.cake {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  margin-top: 20px;
+  gap: 10px;
+}
+.Signup {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background-color:yellow;
+}
+.parfait {
+  padding: 60px;
+  background-color: pink;
+  border-radius: 50px;
+  box-shadow: 4px 4px 4px 2px rgb(190, 145, 145);
+}
+
+.btn {
+  padding: 10px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 5px;
+  background-color: blueviolet;
+
+}
+
+button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 400px;
+  border-radius: 20px;
+  border: none;
+}
