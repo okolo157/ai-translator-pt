@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import { FontAwesomeIcon } from "@fortawesome/fontawesome-svg-core"
 import { faHistory, faGift, faStar } from "@fortawesome/free-solid-svg-icons"
-import "./Rating.css"
+import "../../styles/Rating.css"
 // import { faStar } from '../../../node_modules/@fortawesome/free-regular-svg-icons';
 
 
