@@ -25,9 +25,9 @@ function TranslateComponent() {
         }}
       >
         <LanguageSelect />
-        <VoiceTone />
+        {/* <VoiceTone />
         <TranslateBox />
-        <Rating />
+        <Rating /> */}
       </div>
     </div>
   );
