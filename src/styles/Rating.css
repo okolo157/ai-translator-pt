@@ -1,23 +1,18 @@
 .new {
-    width: 1000px;
-
-    display: flex;
-    
-    
+  width: 1000px;
+  display: flex;
+  margin-top: -100px;
 }
 
+.Sec {
+  justify-content: flex-end;
+  flex: 50%;
+  display: flex;
+  gap: 30px;
+}
 
- .Sec {
-    
-     justify-content: flex-end;
-     flex: 50%;
-     display: flex;
-     gap: 30px
- }
-
- .container {
-   
-     flex: 50%;
-     display: flex;
-     gap: 30px
- }
+.container {
+  flex: 50%;
+  display: flex;
+  gap: 30px;
+}

@@ -1,8 +1,9 @@
 import React from "react";
 import LanguageSelect from "./translator/LanguageSelect";
 import Rating from "./translator/Rating";
-import TranslateBox from "./translator/TranslateBox";
+// import TranslateBox from "./translator/TranslateBox";
 import VoiceTone from "./translator/VoiceTone";
+import '../styles/TranslateComponent.css'
 
 function TranslateComponent() {
   return (
@@ -12,6 +13,8 @@ function TranslateComponent() {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
+        flexDirection: "column",
+        marginBottom: "40px",
       }}
     >
       <div
@@ -20,15 +23,17 @@ function TranslateComponent() {
           margin: "auto",
           borderRadius: "10px",
           height: "500px",
-          backgroundColor: "red",
-          boxShadow: "'4px', '4px', '4px', '4px', 'rgba(0, 0, 0, 0.2)'",
         }}
+        className="card"
       >
         <LanguageSelect />
+        <VoiceTone />
+
         {/* <VoiceTone />
         <TranslateBox />
         <Rating /> */}
       </div>
+      <Rating />
     </div>
   );
 }
