@@ -1,0 +1,23 @@
+.new {
+    width: 1000px;
+
+    display: flex;
+    
+    
+}
+
+
+ .Sec {
+    
+     justify-content: flex-end;
+     flex: 50%;
+     display: flex;
+     gap: 30px
+ }
+
+ .container {
+   
+     flex: 50%;
+     display: flex;
+     gap: 30px
+ }
