@@ -8,14 +8,22 @@ function TranslateComponent() {
   return (
     <div
       style={{
-        maxWidth: "800px",
-        margin: "auto",
-        borderRadius: "10px",
-        boxShadow: "'4px', '4px', '4px', '4px', 'rgba(0, 0, 0, 0.2)'",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
       }}
     >
-      <div>
-        <p>Some</p>
+      <div
+        style={{
+          width: "1000px",
+          margin: "auto",
+          borderRadius: "10px",
+          height: "500px",
+          backgroundColor: "red",
+          boxShadow: "'4px', '4px', '4px', '4px', 'rgba(0, 0, 0, 0.2)'",
+        }}
+      >
         <LanguageSelect />
         <VoiceTone />
         <TranslateBox />
