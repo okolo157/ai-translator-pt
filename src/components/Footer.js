@@ -18,7 +18,11 @@ function Footer() {
 
       <div className="icon-container">
         <a
-          style={{ display: "flex", alignItems: "center" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+          }}
           target="_blank"
           rel="noreferrer"
           href="https://macos-web.app/"
@@ -27,7 +31,11 @@ function Footer() {
           macOS
         </a>
         <a
-          style={{ display: "flex", alignItems: "center" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+          }}
           target="_blank"
           rel="noreferrer"
           href="https://windows.com/stopcode"
@@ -36,7 +44,11 @@ function Footer() {
           windows
         </a>
         <a
-          style={{ display: "flex", alignItems: "center" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+          }}
           target="_blank"
           rel="noreferrer"
           href="https://www.apple.com/ios/ios-18/"
@@ -45,7 +57,11 @@ function Footer() {
           ios
         </a>
         <a
-          style={{ display: "flex", alignItems: "center" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+          }}
           target="_blank"
           rel="noreferrer"
           href="https://www.android.com/"

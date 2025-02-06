@@ -4,10 +4,11 @@ function TranslateBox() {
   return (
     <div className="insider">
       <div className="other">
-        <input placeholder="Type or taste here to translate" />
+        {/* <span>Type or taste here to translate</span> */}
+        <input type="text" />
         <div className="apart">
           <button className="child">GTP-40 mini</button>
-          <button className="son">AI</button>
+          <button className="son">AI translate</button>
         </div>
       </div>
 

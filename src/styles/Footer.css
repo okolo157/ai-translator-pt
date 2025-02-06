@@ -1,5 +1,4 @@
 .icon-container {
-  /* background-color: red; */
   display: flex;
   padding-right: 50px;
   gap: 60px;
@@ -14,4 +13,8 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  background-color: rgb(0, 0, 67);
+  color: white;
+  font-size: large
+
 }

@@ -6,10 +6,18 @@ export default function Navbar() {
     <div className="New">
       {/* <img src="c:\Users\major\Downloads\icons8-home-50.png"></img> */}
       <div className="New2">
-        <Link to="/features">Features</Link>
-        <Link to="/tutorial">Tutorial</Link>
-        <Link to="/pricing">Pricing</Link>
-        <Link to="/signup">Login</Link>
+        <Link className="bg" to="/features">
+          Home
+        </Link>
+        <Link className="bg" to="/pricing">
+          Pricing
+        </Link>
+        <Link className="bg" to="/tutorial">
+          Signup
+        </Link>
+        <Link className="bg" to="/signup">
+          Login
+        </Link>
       </div>
     </div>
   );
