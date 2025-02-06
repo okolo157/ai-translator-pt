@@ -1,0 +1,41 @@
+.container1 {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
+.timi {
+  padding: 15px;
+  border-radius: 20px;
+  width: 400px;
+  background-color: blueviolet;
+}
+
+.pet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tom {
+  padding: 15px;
+  border-radius: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.play {
+  padding: 15px;
+  border-radius: 20px;
+  width: 400px;
+}
+.nit {
+  padding: 30px;
+}
+
+.image {
+    background-color: blue;
+}
