@@ -1,12 +1,16 @@
 import "./App.css";
-//import Landing from "./pages/Landing";
-import Signin from './pages/Signin'
+// import TranslateComponent from "./components/TranslateComponent";
+import Landing from "./pages/Landing";
+import Signup from "./pages/Signup";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      {/* <Landing /> */}
-      <Signin />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
     </div>
   );
 }

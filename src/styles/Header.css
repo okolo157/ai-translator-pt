@@ -1,12 +1,13 @@
 .body {
   font-family: "Secular One", serif;
-  margin: 100px;
+  margin: 70px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .text {
   padding: 15px 25px;
   border: unset;
@@ -20,7 +21,7 @@
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   transition: all 250ms;
   margin-top: 30px;
-  align-items: center;
+  position: relative;
 }
 
 .text::before {
@@ -29,14 +30,19 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 0;
+  width: 100%;
   border-radius: 15px;
   background-color: purple;
   z-index: -1;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  transition: all 250ms;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms;
 }
+
+.text:hover::before {
+  transform: scaleX(1);
+}
+
 .text:hover {
   color: #e8e8e8;
   background-color: #bf0fff;
@@ -48,10 +54,12 @@
 
 .description {
   background-color: whitesmoke;
-  border: none purple;
+  border: 2px solid purple;
   padding: 50px 50px 100px 50px;
   height: 40vh;
   width: 50%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
@@ -60,7 +68,8 @@
 
 .description p {
   text-align: left;
-  height: 70px;
+  min-height: 70px;
 }
-.description h2 {
-}
+
+/* .description h2 {
+} */

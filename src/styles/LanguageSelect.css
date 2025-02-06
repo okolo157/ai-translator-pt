@@ -1,0 +1,39 @@
+.cake-parfait {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+  padding-left: 10px;
+  cursor: pointer;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.cake-parfait:hover {
+  color: purple;
+}
+
+.fruit-parfait {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.fruit-parfait:hover {
+  color: purple;
+}
+
+.fruit {
+  cursor: pointer;
+}
+
+.LanguageSelect {
+  display: flex;
+}
+.yoghurt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 50%;
+}
