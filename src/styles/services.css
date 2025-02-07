@@ -1,13 +1,4 @@
 .container {
-  display: flex;
-  font-size: 19px;
-  gap: 10px;
-  margin: 10px;
-}
-
-.header1,
-.header2,
-.header3 {
   flex: 1;
   text-align: center;
   padding: 20px;

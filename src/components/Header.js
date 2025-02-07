@@ -7,7 +7,7 @@ function Header() {
         <h1>Free AI Translator Powered by ChatGPT 3.5/4</h1>
       </div>
       <div className="description">
-        <h2>Description</h2>
+        <h2>Description</h2>n
         <p>
           image.ai translator help to converts written or spoken content from
           one language to another while preserving its original meaning, tone
