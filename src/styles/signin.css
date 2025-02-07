@@ -8,6 +8,10 @@
 .container2 {
   background-color: whitesmoke;
   border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .timi {
   padding: 15px;
@@ -37,5 +41,5 @@
 }
 
 .image {
-    background-color: blue;
+  background-color: blue;
 }

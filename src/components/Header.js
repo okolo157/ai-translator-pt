@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
         <h1>Free AI Translator Powered by ChatGPT 3.5/4</h1>
       </div>
       <div className="description">
-        <h2>Description</h2>n
+        <h2>Description</h2>
         <p>
           image.ai translator help to converts written or spoken content from
           one language to another while preserving its original meaning, tone
@@ -24,7 +25,9 @@ function Header() {
         </p>
       </div>
       <div>
-        <button className="text">Get Started</button>
+        <Link style={{ textDecoration: "none" }} to="/signin">
+          <button className="text">Get Started</button>
+        </Link>
       </div>
     </div>
   );

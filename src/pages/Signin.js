@@ -34,8 +34,8 @@ function signin() {
         <div className="nut">
           <button className="tom">
             <FontAwesomeIcon icon={faGoogle} />
-            Sign In With Email</button>
-          
+            Sign In With Email
+          </button>
         </div>
         <div className="pit">
           <button className="play">

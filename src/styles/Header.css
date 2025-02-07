@@ -22,6 +22,8 @@
   transition: all 250ms;
   margin-top: 30px;
   position: relative;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .text::before {
@@ -42,6 +44,8 @@
 .text:hover::before {
   transform: scaleX(1);
 }
+
+
 
 .text:hover {
   color: #e8e8e8;
