@@ -14,11 +14,13 @@
   align-items: center;
   gap: 20px;
   justify-content: center;
-  background-color: yellow;
+  background-image: url(https://wallpapercave.com/wp/wp9639593.jpg);
+  /* background-size: center; */
 }
+
 .parfait {
   padding: 40px;
-  background-color: pink;
+  background-color:whitesmoke;
   border-radius: 50px;
   box-shadow: 4px 4px 4px 2px rgb(190, 145, 145);
 }
@@ -47,4 +49,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.baby:hover {
+  background-color: rgba(230, 167, 50, 0.664);
+  color: black;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: black;
+  cursor: pointer;
 }

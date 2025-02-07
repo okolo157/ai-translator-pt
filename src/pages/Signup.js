@@ -13,7 +13,7 @@ function Signup() {
           <img src={image} alt="logo" />
           <p> Don't have an account? Signup for free. </p>
           <button className="btn">
-            <FontAwesomeIcon icon={faGoogle} size="2x" className="itemx" />
+            <FontAwesomeIcon icon={faGoogle} size="2x" className="itemxx" />
             sign up with google
           </button>
           <div
@@ -31,12 +31,12 @@ function Signup() {
         </div>
 
         <div className="cake">
-          <button>
+          <button className="baby">
             {<FontAwesomeIcon icon={faEnvelope} size="2x" className="itemx" />}{" "}
             Sign up with Email{" "}
           </button>
 
-          <button>
+          <button className="baby">
             {" "}
             <FontAwesomeIcon icon={faApple} size="2x" className="itemx" />
             Sign up with apple
