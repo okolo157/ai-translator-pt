@@ -2,7 +2,14 @@
   display: flex;
   padding-right: 50px;
   gap: 60px;
+  /* color: blue; */
 }
+/* .icon-container p {
+  color: white;
+} */
+/* .icon-container p:hover {
+  color: blue;
+} */
 .cookies {
   display: flex;
   padding-left: 50px;
@@ -13,8 +20,20 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgb(0, 0, 67);
+  background-color: rgba(128, 0, 128, 0.733);
   color: white;
-  font-size: large
-
+  font-size: large;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+/* .itemx {
+  color: white;
+}
+.itemx:hover {
+  color: blue;
+} */
+.icons {
+  color: blue;
+}
+.icons:hover {
+  color: white;
 }
