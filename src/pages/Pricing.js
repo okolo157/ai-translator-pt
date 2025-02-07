@@ -1,10 +1,11 @@
 import React from "react";
-import Selectplan from "../components/SelectPlan";
+import Table from "../components/Table";
 
+import HelpSection from "../components/HelpSection";
 export default function Pricing() {
   return (
     <div>
-      <Selectplan />
+      <Table />
     </div>
   );
 }

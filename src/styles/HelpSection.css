@@ -1,0 +1,21 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  background-image: url(https://wallpapercave.com/wp/wp9639593.jpg);
+}
+
+.containeer2 {
+  border-radius: 20px;
+  border: 1px solid rgb(66, 126, 255);
+  padding: 30px;
+  width: 80%;
+  backdrop-filter: blur(40px);
+  color: white;
+}
+
+.nit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
