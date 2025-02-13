@@ -14,35 +14,19 @@ function signin() {
         <div className="Add">
           <p>Already Have an Account? Log in</p>
         </div>
-        <div className="Rep">
-          <button className="timi">Signin With Google</button>
-          <FontAwesomeIcon icon="fa-brands fa-google" />
-        </div>
-        <div className="pet">
-          <hr
-            style={{
-              width: "170px",
-            }}
-          />
-          <p>or</p>
-          <hr
-            style={{
-              width: "170px",
-            }}
-          />
-        </div>
         <div className="nut">
           <button className="tom">
-            <FontAwesomeIcon icon={faGoogle} />
-            Sign In With Email
+            <label for="username">USERNAME</label>
+            <input className="oyin" type="text" placeholder="username"></input>
           </button>
         </div>
         <div className="pit">
           <button className="play">
-            <FontAwesomeIcon icon={faApple} />
-            Sign In With Apple
+            <label for="Password">PASSWORD</label>
+            <input className="pin" type="text" placeholder="password"></input>
           </button>
         </div>
+        <button className="pen" type="signin">SIGNIN</button>
         <div className="nit">
           <p>By Signin Up, you agree to the Terms and conditions and privacy</p>
         </div>

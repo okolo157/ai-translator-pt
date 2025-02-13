@@ -3,9 +3,7 @@ import "../styles/Selectplan.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons/faStar";
 import {
-  faNoteSticky,
   faPlane,
-  faShoppingCart,
   faSprayCanSparkles,
 } from "@fortawesome/free-solid-svg-icons";
 
