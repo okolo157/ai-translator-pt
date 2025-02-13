@@ -4,7 +4,7 @@ function Table() {
   return (
     <div className="table">
       <div className="component">
-        <h1>Compare Plans</h1>
+        <h1 style={{ color: "white" }}>Compare Plans</h1>
         <div className="table2">
           <div className="features">
             <h2>Features</h2>
