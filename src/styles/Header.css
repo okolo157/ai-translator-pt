@@ -34,7 +34,7 @@
   height: 100%;
   width: 100%;
   border-radius: 15px;
-  background-color: purple;
+  background-color: rgb(66, 126, 255);
   z-index: -1;
   transform: scaleX(0);
   transform-origin: left;
@@ -49,7 +49,7 @@
 
 .text:hover {
   color: #e8e8e8;
-  background-color: #bf0fff;
+  background-color: rgb(66, 126, 255);
 }
 
 .text:hover::before {
@@ -58,7 +58,7 @@
 
 .description {
   background-color: whitesmoke;
-  border: 2px solid purple;
+  border: 2px solid rgb(66, 126, 255);
   padding: 50px 50px 100px 50px;
   height: 40vh;
   width: 50%;

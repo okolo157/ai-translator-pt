@@ -36,3 +36,26 @@
 //     </div>
 //   );
 // }
+import Navbar from "../components/Navbar";
+import LanguageSelect from "../components/translator/LanguageSelect";
+import Rating from "../components/translator/Rating";
+import TranslateBox from "../components/translator/TranslateBox";
+import VoiceTone from "../components/translator/VoiceTone";
+
+export default function Homepage() {
+  return (
+    <div>
+      <Navbar />
+      <div
+        style={{
+          marginTop: "40px",
+          padding: "20px",
+        }}
+      >
+        <LanguageSelect />
+        <VoiceTone />
+        <TranslateBox />
+      </div>
+    </div>
+  );
+}

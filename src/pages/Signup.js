@@ -1,11 +1,34 @@
-import React from "react";
-import { faApple } from "@fortawesome/free-brands-svg-icons/faApple";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+
 import "../styles/Signup.css";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons/faGoogle";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+
 import image from "../Bilikisu/bgnew.png";
-function Signup() {
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+
+function Signup({ onSignupSuccess }) {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleSignup = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("http://localhost:5000/signup", {
+        username,
+        email,
+        password,
+      });
+      // localStorage.setItem("token", response.data.token);
+      // onSignupSuccess(response.data.token);
+      alert("Signup successful!");
+      navigate("/homepage");
+    } catch (error) {
+      alert(error.response?.data?.message || "Signup failed");
+    }
+  };
+
   return (
     <div className="Signup">
       <div className="parfait">
@@ -33,6 +56,7 @@ function Signup() {
               placeholder="Username"
               className="baby"
               class="input"
+              onChange={(e) => setUsername(e.target.value)}
             />
             <i></i>
           </div>
@@ -46,6 +70,7 @@ function Signup() {
               placeholder="Sign up with email"
               className="baby"
               class="input"
+              onChange={(e) => setEmail(e.target.value)}
             />
             <i></i>
           </div>
@@ -59,17 +84,14 @@ function Signup() {
               className="baby"
               class="input"
               name="input"
+              onChange={(e) => setPassword(e.target.value)}
             />
             <i></i>
           </div>
-          <button class="buttons">Sign up</button>
+          <button onClick={handleSignup} class="buttons">
+            Sign up
+          </button>
 
-          {/* 
-          <button className="baby">
-            {" "}
-            <FontAwesomeIcon icon={faApple} size="2x" className="itemx" />
-            Sign up with apple
-          </button> */}
           <div className="clickboxs">
             <label>
               <input type="checkbox" class="input" />
