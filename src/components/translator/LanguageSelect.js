@@ -15,7 +15,7 @@ function LanguageSelect() {
           <FontAwesomeIcon icon={faRepeat} size="4" />
         </div>
         <div className="fruit-parfait">
-          <h2>English</h2>
+          <h2>Yoruba</h2>
           <FontAwesomeIcon icon={faCaretDown} />
         </div>
       </div>
